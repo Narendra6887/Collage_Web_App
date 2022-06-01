@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik+Bubbles&family=Rubik+Glitch&display=swap');
+
+body{
+    background-color: white;
+}
+#copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#startButton{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    color:blue; 
+    border: 5px solid blue;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+}
+#startButton:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Rubik Glitch', cursive;
+    color: blue;
+    text-shadow: 0px 0px 20px blue;
+}
+h3{
+    color: blue;
+    font-family: 'Rubik Bubbles', cursive;
+}
+h4{
+    color: blue;
+    font-family: 'Fredoka One', cursive;
+}
+#camera{
+    width:360px;
+    height: 250px;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    box-shadow: 0px 0px 10px blue;
+}
+img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    border-color: blue;
+    border-width: 1px;
+    padding: 5px;
+}
+#result1:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+#result2:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+#result3:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+#result1{
+    width:360px;
+    height: 250px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 10px;
+}
+#result2{
+    width:360px;
+    height: 250px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 10px;
+}
+#result3{
+    width:360px;
+    height: 250px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#textbox
+{
+    width: 300px;
+}
